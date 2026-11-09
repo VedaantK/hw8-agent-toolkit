@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+.venv/
+.env
+*.pyc
+.claude/settings.local.json
+# raw transcripts can contain file contents/keys; commit the trimmed .md versions only
+transcripts/*.jsonl
